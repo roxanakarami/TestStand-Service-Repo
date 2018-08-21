@@ -1,0 +1,9 @@
+C:\Users\admin\source\repos\TestStandService\TestStandService\obj\Debug\TestStandService.ProjectInstaller.resources
+C:\Users\admin\source\repos\TestStandService\TestStandService\obj\Debug\TestStandService.TestStandService.resources
+C:\Users\admin\source\repos\TestStandService\TestStandService\obj\Debug\TestStandService.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\TestStandService\TestStandService\obj\Debug\TestStandService.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\TestStandService\TestStandService\bin\Debug\TestStandService.exe.config
+C:\Users\admin\source\repos\TestStandService\TestStandService\bin\Debug\TestStandService.exe
+C:\Users\admin\source\repos\TestStandService\TestStandService\bin\Debug\TestStandService.pdb
+C:\Users\admin\source\repos\TestStandService\TestStandService\obj\Debug\TestStandService.exe
+C:\Users\admin\source\repos\TestStandService\TestStandService\obj\Debug\TestStandService.pdb
