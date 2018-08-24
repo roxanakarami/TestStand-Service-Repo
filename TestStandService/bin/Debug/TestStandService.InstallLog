@@ -27,3 +27,151 @@ Affected parameters are:
    logtoconsole = 
    assemblypath = C:\Users\admin\source\repos\TestStandService\TestStandService\bin\Debug\TestStandService.exe
    logfile = C:\Users\admin\source\repos\TestStandService\TestStandService\bin\Debug\TestStandService.InstallLog
+Uninstalling assembly 'C:\Users\admin\source\repos\TestStandService\TestStandService\bin\Debug\TestStandService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\admin\source\repos\TestStandService\TestStandService\bin\Debug\TestStandService.InstallLog
+   assemblypath = C:\Users\admin\source\repos\TestStandService\TestStandService\bin\Debug\TestStandService.exe
+Removing EventLog source TestStandService.
+Service TestStandService is being removed from the system...
+Service TestStandService was successfully removed from the system.
+Installing assembly 'C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.InstallLog
+   assemblypath = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe
+Installing service TestStandService...
+Service TestStandService has been successfully installed.
+Creating EventLog source TestStandService in log Application...
+Committing assembly 'C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.InstallLog
+   assemblypath = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe
+Uninstalling assembly 'C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.InstallLog
+   assemblypath = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe
+Removing EventLog source TestStandService.
+Service TestStandService is being removed from the system...
+Service TestStandService was successfully removed from the system.
+Attempt to stop service TestStandService.
+Installing assembly 'C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.InstallLog
+   assemblypath = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe
+Installing service TestStandService...
+Service TestStandService has been successfully installed.
+Creating EventLog source TestStandService in log Application...
+Committing assembly 'C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.InstallLog
+   assemblypath = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe
+Uninstalling assembly 'C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.InstallLog
+   assemblypath = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe
+Removing EventLog source TestStandService.
+Service TestStandService is being removed from the system...
+Service TestStandService was successfully removed from the system.
+Installing assembly 'C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.InstallLog
+   assemblypath = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe
+Installing service TestStandService...
+Service TestStandService has been successfully installed.
+Creating EventLog source TestStandService in log Application...
+Committing assembly 'C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.InstallLog
+   assemblypath = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe
+Uninstalling assembly 'C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.InstallLog
+   assemblypath = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe
+Removing EventLog source TestStandService.
+Service TestStandService is being removed from the system...
+Service TestStandService was successfully removed from the system.
+Installing assembly 'C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.InstallLog
+   assemblypath = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe
+Installing service TestStandService...
+Service TestStandService has been successfully installed.
+Creating EventLog source TestStandService in log Application...
+Committing assembly 'C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.InstallLog
+   assemblypath = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe
+Uninstalling assembly 'C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.InstallLog
+   assemblypath = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe
+Removing EventLog source TestStandService.
+Service TestStandService is being removed from the system...
+Service TestStandService was successfully removed from the system.
+Installing assembly 'C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.InstallLog
+   assemblypath = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe
+Installing service TestStandService...
+Service TestStandService has been successfully installed.
+Creating EventLog source TestStandService in log Application...
+Committing assembly 'C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.InstallLog
+   assemblypath = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe
+Uninstalling assembly 'C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.InstallLog
+   assemblypath = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe
+Removing EventLog source TestStandService.
+Service TestStandService is being removed from the system...
+Service TestStandService was successfully removed from the system.
+Installing assembly 'C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.InstallLog
+   assemblypath = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe
+Installing service TestStandService...
+Service TestStandService has been successfully installed.
+Creating EventLog source TestStandService in log Application...
+Committing assembly 'C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.InstallLog
+   assemblypath = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe
+Uninstalling assembly 'C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.InstallLog
+   assemblypath = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe
+Removing EventLog source TestStandService.
+Service TestStandService is being removed from the system...
+Service TestStandService was successfully removed from the system.
+Installing assembly 'C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.InstallLog
+   assemblypath = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe
+Installing service TestStandService...
+Service TestStandService has been successfully installed.
+Creating EventLog source TestStandService in log Application...
+Committing assembly 'C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.InstallLog
+   assemblypath = C:\Users\admin\source\repos\TestStandService\TestStand-Service-Repo\TestStandService\bin\Debug\TestStandService.exe

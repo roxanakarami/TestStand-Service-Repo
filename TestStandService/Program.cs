@@ -17,7 +17,7 @@ namespace TestStandService
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[]
             {
-                new TestStandService(new string[2])
+                new TestStandService()
             };
             ServiceBase.Run(ServicesToRun);
         }

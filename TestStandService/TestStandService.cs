@@ -8,6 +8,12 @@ using System.ServiceProcess;
 using System.Text;
 using System.Threading.Tasks;
 using System.Runtime.InteropServices;
+using System.Web;
+using System.Net;
+using System.Net.Http;
+using System.Web.Http;
+using System.Web.Http.SelfHost;
+
 
 namespace TestStandService
 {
@@ -16,34 +22,31 @@ namespace TestStandService
         //Now, in the MyNewService class, declare the SetServiceStatus function by using platform invoke:
         [DllImport("advapi32.dll", SetLastError = true)]
         private static extern bool SetServiceStatus(IntPtr handle, ref ServiceStatus serviceStatus);
-        public TestStandService(string[] args)
+        public TestStandService()
         {
             InitializeComponent();
-            string eventSourceName = "MySource";
-            string logName = "MyNewLog";
-            if (args.Count() > 0)
-            {
-                eventSourceName = args[0];
-            }
-            if (args.Count() > 1)
-            {
-                logName = args[1];
-            }
             eventLog1 = new System.Diagnostics.EventLog();
-            if (!System.Diagnostics.EventLog.SourceExists(eventSourceName))
+            if (!System.Diagnostics.EventLog.SourceExists("MySource"))
             {
-                System.Diagnostics.EventLog.CreateEventSource(eventSourceName, logName);
+                System.Diagnostics.EventLog.CreateEventSource(
+                    "MySource", "MyNewLog");
             }
-            eventLog1.Source = eventSourceName;
-            eventLog1.Log = logName;
+            eventLog1.Source = "MySource";
+            eventLog1.Log = "MyNewLog";
+
+
+
         }
+        
 
         protected override void OnStart(string[] args)
         {
-            eventLog1.WriteEntry("In OnStart");
+           /* eventLog1.WriteEntry("In OnStart");
             // Set up a timer to trigger every minute.  
-            System.Timers.Timer timer = new System.Timers.Timer();
-            timer.Interval = 60000; // 60 seconds  
+            System.Timers.Timer timer = new System.Timers.Timer
+            {
+                Interval = 60000 // 60 seconds  
+            };
             timer.Elapsed += new System.Timers.ElapsedEventHandler(this.OnTimer);
             timer.Start();
 
@@ -55,14 +58,27 @@ namespace TestStandService
 
             // Update the service state to Running.  
             serviceStatus.dwCurrentState = ServiceState.SERVICE_RUNNING;
-            SetServiceStatus(this.ServiceHandle, ref serviceStatus);
+            SetServiceStatus(this.ServiceHandle, ref serviceStatus);*/
+
+            //initialize web service here
+            var config = new HttpSelfHostConfiguration("http://localhost:8090");
+            config.Routes.MapHttpRoute(
+                name: "API",
+                routeTemplate: "{controller}/{action}/{id}",
+                defaults: new { id = RouteParameter.Optional }
+            );
+            HttpSelfHostServer server = new HttpSelfHostServer(config);
+            server.OpenAsync().Wait();
+
+
+
         }
 
         protected override void OnStop()
         {
-            eventLog1.WriteEntry("In onStop.");
+            /* eventLog1.WriteEntry("In onStop.");
 
-            //update the service to stop pending
+           //update the service to stop pending
             ServiceStatus serviceStatus = new ServiceStatus();
             serviceStatus.dwCurrentState = ServiceState.SERVICE_STOP_PENDING;
             serviceStatus.dwWaitHint = 100000;
@@ -71,17 +87,18 @@ namespace TestStandService
             //update the service state to stopped
             serviceStatus.dwCurrentState = ServiceState.SERVICE_STOPPED;
             SetServiceStatus(this.ServiceHandle, ref serviceStatus);
+            */
         }
 
         protected override void OnContinue()
         {
-            eventLog1.WriteEntry("In OnContinue.");
+            //eventLog1.WriteEntry("In OnContinue.");
         }
 
         public void OnTimer(object sender, System.Timers.ElapsedEventArgs args)
         {
             // TODO: Insert monitoring activities here.  
-            eventLog1.WriteEntry("Monitoring the System", EventLogEntryType.Information, eventId++);
+          //  eventLog1.WriteEntry("Monitoring the System", EventLogEntryType.Information, eventId++);
         }
 
         //adding code to implement service pending status
